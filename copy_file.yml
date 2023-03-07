@@ -4,7 +4,7 @@
   become: false
   gather_facts: false
   tasks:
-  - name: Copy file nagios installer  
+  - name: Copy file
     win_copy:
       src: join.txt
       dest: C:\Temp\
