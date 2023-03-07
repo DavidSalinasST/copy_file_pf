@@ -1,0 +1,11 @@
+---
+- name: Manage Windows
+  hosts: win
+  become: false
+  gather_facts: false
+  tasks:
+  - name: Copy file nagios installer  
+    win_copy:
+      src: join.txt
+      dest: C:\Temp\
+  
