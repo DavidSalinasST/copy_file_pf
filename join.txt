@@ -1,1 +1,3 @@
 netdom.exe join $env:computername /domain:pacificovida.com /UserD:pacificovida.com\SERANSWNS /ou:OU=Windows2016,OU=WSUS,OU=Servidores,OU=Recursos,DC=pacificovida,DC=com /PasswordD:PS5Hg4WdS1e.
+
+netdom.exe join $env:computername /domain:pps.com.pe /UserD:pps.com.pe\SERANSWNS /ou:OU=Alta Servidores,OU=PPS Servidores – GPO,DC=pps,DC=com,DC=pe /PasswordD:PS5Hg4WdS1e.
